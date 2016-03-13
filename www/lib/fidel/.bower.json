@@ -1,0 +1,30 @@
+{
+  "name": "fidel",
+  "description": "a ui view controller",
+  "version": "2.2.5",
+  "homepage": "https://github.com/jgallen23/fidel",
+  "license": "MIT",
+  "copyright": "Greg Allen",
+  "main": "dist/fidel.js",
+  "dependencies": {
+    "jquery": "1.*"
+  },
+  "devDependencies": {
+    "assert": "*"
+  },
+  "ignore": [
+    "test",
+    "lib",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "_release": "2.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.2.5",
+    "commit": "165d575376c9e6b441bd86e3e321eaed9399372f"
+  },
+  "_source": "git://github.com/jgallen23/fidel.git",
+  "_target": "2.*",
+  "_originalSource": "fidel"
+}

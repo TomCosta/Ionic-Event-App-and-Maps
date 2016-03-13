@@ -1,0 +1,26 @@
+{
+  "name": "file-uploader",
+  "description": "jQuery file upload plugin",
+  "version": "0.9.0",
+  "homepage": "https://github.com/jgallen23/file-uploader/",
+  "license": "MIT",
+  "copyright": "First + Third",
+  "main": "dist/file-uploader.js",
+  "dependencies": {
+    "framejax": "0.3.*",
+    "fidel": "2.*"
+  },
+  "devDependencies": {
+    "assert": "*"
+  },
+  "_release": "0.9.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.9.0",
+    "commit": "14c7c67bebd12a043692c319b9f7c9802f9796cd"
+  },
+  "_source": "git://github.com/jgallen23/image-uploader.git",
+  "_target": "^0.9.0",
+  "_originalSource": "image-uploader",
+  "_direct": true
+}

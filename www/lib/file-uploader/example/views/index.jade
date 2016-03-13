@@ -1,0 +1,39 @@
+!!! 5
+html
+  head
+    style
+      #btn { width: 200px; height: 200px; border: 1px solid #ccc; background: #f0f0f0; line-height: 200px; }
+      #btn.over { border: 1px solid #000; }
+      #btn p { margin: 0; }
+  body
+    div#btn Click here to upload
+    script(src='jquery/dist/jquery.js')
+    script(src='file-uploader.full.js')
+    script
+      var processData = function(data) {
+        console.log('data', data);
+        return data;
+      };
+      $('#btn')
+        .fileUploader({ processData: processData, postKey: 'image', allow: ['jpg'] })
+          .on('start', function() {
+            console.log('start');
+          })
+          .on('over', function() {
+            $(this).addClass('over');
+          })
+          .on('out', function() {
+            $(this).removeClass('over');
+          })
+          .on('fileSelect', function() {
+            console.log('file selected');
+          })
+          .on('complete', function() {
+            console.log('complete');
+          })
+          .on('fileUploaderMouseIn', function() {
+            console.log('hovering');
+          })
+          .on('fileUploaderMouseOut', function() {
+            console.log('not hovering');
+          })

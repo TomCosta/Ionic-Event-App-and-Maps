@@ -1,0 +1,16 @@
+!!! 5
+html
+  head
+  body
+    form(method="post",enctype="multipart/form-data",action="/")
+      input(type="file", name="img")
+      input(type="submit",value="Submit")
+    div#result
+    script(src='jquery/jquery.js')
+    script(src='framejax.js')
+    script.
+      $('form')
+        .framejax()
+        .on('complete', function(e, result) {
+          $('#result').html(result);
+        });
