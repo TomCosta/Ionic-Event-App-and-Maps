@@ -1,4 +1,7 @@
-# Ionic-starter-eventmaps
+# Ionic-Event-App-and-Maps
+Example of an event app with Google Maps integration
+
+It's a simplified way of code from the original one: (http://market.ionic.io/starters/event-app-and-maps)
 
 This is an addon starter template based on [RequireJS](http://requirejs.org/) for the [Ionic Framework](http://ionicframework.com/) for event apps with the usage of Google Maps (custom directive).
 
@@ -18,8 +21,7 @@ To use this, either create a new ionic project using the ionic node.js utility, 
 - open dialer for tel contact on detail page
 - open mail app for email contact on detail page
 - open browser for website on detail page
-- random images
-=======
-# Ionic-Event-App-and-Maps
-Example of an event app with Google Maps integration
 
+=======
+Please, put your hands dirty, collaborate!
+Change the code, do something and show us!
