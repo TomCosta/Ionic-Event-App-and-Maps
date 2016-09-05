@@ -23,5 +23,6 @@ To use this, either create a new ionic project using the ionic node.js utility, 
 - open browser for website on detail page
 
 =======
+
 Please, put your hands dirty, collaborate!
 Change the code, do something and show us!
